@@ -1,0 +1,39 @@
+body {
+    background-color: #222;
+    font-family: "Helvetica", samns-serif;
+    text-align: center;
+    color: #eee;
+    padding: 50px;
+}
+h1 {
+    color: #f0a500;
+}
+p {
+    color: #fff;
+}
+img {
+    border:3px solid #eee;
+    border-radius: 50%;
+}
+a {
+    color: #1a73e8;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #f0a500;
+    color: #222;
+    border: none;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #45a049;
+}
