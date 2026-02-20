@@ -44,3 +44,16 @@ button {
 button:hover {
     background-color: #ffcc33;
 }
+
+.skills {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    background-color: #333;
+    margin: 8px auto;
+    padding: 10px;
+    width: 200px;
+    border-radius: 6px;
+}
