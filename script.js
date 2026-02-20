@@ -1,9 +1,9 @@
 const goals = [
-    "HTMLを理解する",
-    "CSSを理解する",
-    "JSでボタンを動かす",
-    "GitHunにアップロードする",
-    "明日の学習計画を立てる"
+    "Improve HTML structure",
+    "Practice CSS layout",
+    "Add new section to portfolio",
+    "Study JavaScript basics",
+    "Plan tomorrow's learning"
 ];
 
 const button = document.getElementById("goalBtn");
