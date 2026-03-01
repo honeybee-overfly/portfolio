@@ -1,27 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>My Portfolio</title>
-        <link rel="stylesheet" href="style.css"
-    </head>
-    <body>
-        <h1>Hello, I'm honeybee</h1>
-        <p>I'm passionate about art, programming, and travel</p>
-        <img src="myphoto.jpg" alt="Profile photo" width="200" height="200">
-        <br><br>
-        <h2>Today's Focus</h2>
-        <p id="goalText">Click the button to generate today's goal</p>
-        <button id="goalBtn">Generate Goal</button>
-        <br><br>
-        <h2>Skills</h2>
-        <ul class="skills">
-            <li>HTML structure</li>
-            <li>CSS styling</li>
-            <li>Responsive Design</li>
-            <li>JavaScript Interactivity</li>
-            <li>Git & GitHub</li>
-        <a href="https://github.com/honeybee-overfly" target="_blank">Visit my GitHub</a>
-        <script src="script.js"></script>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Hello, I'm Honeybee</h1>
+    <p>I am passionate about art, programming, and travel.</p>
+
+    <img src="myphoto.jpg" alt="Profile photo" width="200" height="200">
+
+    <br><br>
+
+    <h2>Today's Focus</h2>
+    <p id="goalText">Click the button to generate today's goal</p>
+    <button id="goalBtn">Generate Goal</button>
+
+    <br><br>
+
+    <h2>Skills</h2>
+    <ul class="skills">
+        <li>HTML structure</li>
+        <li>CSS styling</li>
+        <li>Responsive Design</li>
+        <li>JavaScript Interactivity</li>
+        <li>Git & GitHub</li>
+        <li>TypeScript Basics</li>
+    </ul>
+
+    <h2>Projects</h2>
+    <div class="projects">
+
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>A personal portfolio built with HTML, CSS, and JavaScript.</p>
+            <a href="https://honeybee-overfly.github.io/portfolio/" target="_blank">View Live</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Interactive Goal Button</h3>
+            <p>A small JavaScript app that generates daily goals.</p>
+            <a href="https://honeybee-overfly.github.io/portfolio/" target="_blank">Try It</a>
+        </div>
+
+    </div>
+
+    <h2>My Drawings</h2>
+    <div id="gallery" class="gallery"></div>
+
+    <br>
+
+    <a href="https://github.com/honeybee-overfly" target="_blank">Visit my GitHub</a>
+
+    <script src="script.js"></script>
+    <script src="drawings.js"></script>
+
+</body>
 </html>

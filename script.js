@@ -1,15 +1,15 @@
 const goals = [
-    "Improve HTML structure",
-    "Practice CSS layout",
-    "Add new section to portfolio",
-    "Study JavaScript basics",
-    "Plan tomorrow's learning"
+    "Practice drawing for 30 minutes",
+    "Learn one new TypeScript concept",
+    "Push something to GitHub",
+    "Study CSS layouts",
+    "Sketch a new idea"
 ];
 
-const button = document.getElementById("goalBtn");
+const goalBtn = document.getElementById("goalBtn");
 const goalText = document.getElementById("goalText");
 
-button.addEventListener("click", function() {
+goalBtn.addEventListener("click", () => {
     const randomIndex = Math.floor(Math.random() * goals.length);
     goalText.textContent = goals[randomIndex];
 });
